@@ -23,6 +23,6 @@ print ('********', uczen)
 
 for pozycja, uczen in enumerate(lista):
     if uczen == uczestnik:
-        print (pozycja, ': ', uczen)
+        print (pozycja+1, ': ', uczen)
 
 print ('********', uczen)  
